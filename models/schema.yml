@@ -4,7 +4,7 @@ models:
     - name: test_01
       description: "A starter dbt model"
       columns:
-          - name: id
+          - name: num
             description: "The primary key for this table"
             tests:
                 - unique
@@ -13,7 +13,7 @@ models:
     - name: test_02
       description: "A starter dbt model"
       columns:
-          - name: id
+          - name: num
             description: "The primary key for this table"
             tests:
                 - unique
