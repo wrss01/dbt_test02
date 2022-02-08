@@ -1,0 +1,20 @@
+ersion: 2
+
+models:
+    - name: test_01
+      description: "A starter dbt model"
+      columns:
+          - name: id
+            description: "The primary key for this table"
+            tests:
+                - unique
+                - not_null
+
+    - name: test_02
+      description: "A starter dbt model"
+      columns:
+          - name: id
+            description: "The primary key for this table"
+            tests:
+                - unique
+                - not_null
